@@ -20,10 +20,10 @@ parser = argparse.ArgumentParser(description='Get input file and parameters')
 
 parser.add_argument('inputfile', metavar='inputfile', type=str, help='provide input file')
 
-parser.add_argument("--plot", help="use if want to see BJD vs flux plot",
+parser.add_argument("--plot", help="use if want to see BJD vs mag plot",
                     action="store_true")
 
-parser.add_argument("--foldedplot", help="use if want to see (BJD mod P) vs flux plot",
+parser.add_argument("--foldedplot", help="use if want to see (BJD mod P) vs mag plot",
                     action="store_true")
 
 
